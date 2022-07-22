@@ -1,0 +1,22 @@
+
+{
+
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.autoIndent": "full"
+    },
+    "files.exclude": {
+        // "**/.git": true,
+        // "**/.svn": true,
+        // "**/.hg": true,
+        // "**/CVS": true,
+        // "**/.DS_Store": true,
+        // "**/Thumbs.db": true,
+        // "**/lib/": true,
+        // "**/node_modules/": true,
+        // "**/package-lock.json" : true,
+        // "**/*.log":true,
+        // "**/build/" : true,
+        // ".gitignore" : true
+    }
+}

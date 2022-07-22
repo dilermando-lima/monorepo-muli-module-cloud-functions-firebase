@@ -1,0 +1,15 @@
+{
+    "name": "string-module",
+    "version": "1.0.0",
+    "main": "build/index.js",
+    "private": true,
+    "scripts": {
+        "build:clean": "tsc --build --clean",
+        "build": "tsc",
+        "build:watch": "tsc -w",
+        "build:watch:bkg": "tsc -w &"
+    },
+    "devDependencies": {
+        "typescript": "^4.6.4"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "apib",
+    "version": "1.0.0",
+    "scripts": {
+        "build:clean": "tsc --build --clean",
+        "build": "tsc",
+        "build:watch": "tsc -w",
+        "build:watch:bkg": "tsc -w &"
+    },
+    "engines": {
+        "node": "16"
+    },
+    "main": "build/index.js",
+    "dependencies": {
+        "string-module": "1.0.0",
+        "firebase-admin": "^10.0.2",
+        "firebase-functions": "^3.21.0"
+    },
+    "devDependencies": {
+        "typescript": "^4.6.4"
+    },
+    "private": true
+}

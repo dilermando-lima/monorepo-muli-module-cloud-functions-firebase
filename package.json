@@ -1,0 +1,18 @@
+{
+  "name": "wp",
+  "version": "1.0.0",
+  "scripts": {
+    "build:clean:wp": "npm run build:clean --workspaces",
+    "build:wp": "npm run build --workspaces",
+    "build:hard:wp": "npm run build:clean:wp && npm run build:wp",
+    "build:watch:bkg:wp": "npm run build:watch:bkg --workspaces",
+    "install:hard" : "rm -rf node_modules package-lock.json && npm install",
+    "serve:wp": "npm run build:watch:bkg:wp | firebase emulators:start --only functions"
+  },
+  "workspaces": [
+    "string-module",
+    "functions/apia",
+    "functions/apib"
+  ],
+  "private": true
+}

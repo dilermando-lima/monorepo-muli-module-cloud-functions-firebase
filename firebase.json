@@ -1,0 +1,12 @@
+{
+  "functions": [
+    {
+      "source": "functions/apia",
+      "codebase": "apia"
+    },
+    {
+      "source": "functions/apib",
+      "codebase": "apib"
+    }
+  ]
+}
