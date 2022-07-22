@@ -2,11 +2,13 @@
   "functions": [
     {
       "source": "functions/apia",
-      "codebase": "apia"
+      "codebase": "apia",
+      "predeploy": "npm run build:hard:wp"
     },
     {
       "source": "functions/apib",
-      "codebase": "apib"
+      "codebase": "apib",
+      "predeploy": "npm run build:hard:wp"
     }
   ]
 }
